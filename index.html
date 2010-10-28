@@ -3,29 +3,45 @@
 	<head>
 		<title></title>
 		<style type="text/css">
-		body {
+html, body {
 			font-family: arial;
+			margin: 0;
+			height: 100%;
 			/*
 			background-image: url("./YWJ_LOGO.jpg");
 			background-repeat: no-repeat;
 			background-position: 50% 0%;
 			*/
 		}
+		#background {
+			position:fixed; 
+			top:0; 
+			left:0; 
+			width:100%; 
+			height:100%;
+		}
+		#content {
+			position:relative; 
+			z-index:1;
+			height: 100%;
+		}
 		div.menu {
 			width: 25%;
 			float: left;
 		}
-		span.main {
+		div.main {
 			float: right;
 			width: 75%;
+			height: 100%;
 			font-size: 1.3em;
 			color: white;
-			background-color: blue;
+			background-color: rgb(0,84,166);
+			opacity: 0.9;
 		}
-		span.main p {
+		div.main p {
 			margin-left: 3%;
 		}
-		span.main img {
+		div.main img {
 			height: 40%;
 			margin: 3%;
 		}
@@ -35,39 +51,45 @@
 		}
 		li {
 			margin: 20px;
-			color: blue;
+			color: rgb(4,55,105);
 		}
 		</style>
 	</head>
 	<body>
-		<div class="menu">
-			<ul>
-				<li>HOME
-				</li>
-				<li>SHADOW YOGA
-				</li>
-				<li>CLASSES
-				</li>
-				<li>TREATMENTS
-				</li>
-				<li>ABOUT JAYMIN
-				</li>
-				<li>CONTACT
-				</li>
-			</ul>
+		<div id="background">
+			<img src="./YWJ_LOGO.jpg">
 		</div>
-		<span class="main">
-		<p>
-			<img alt="vahni" src="./DSCF2602.JPG"> <img src="./DSCF2628gd.JPG" alt="sarpa">
-		</p>
-		<p>Welcome
-		</p>
-		<p>Jaymin teaches hatha yoga, her teaching being grounded in the Shadow Yoga system.
-		</p>
-		<p>Classes and workshops are currently run in Auckland City and surrounding areas with workshops in Northland and the Waikato.
-		</p>
-		<p>Workshops are also offered throughout Aotearoa where expressions of interest are shown, please get in touch.
-		</p>
-		</span>
+		<div id="content">
+				<div class="menu">
+					<ul>
+						<li>HOME
+						</li>
+						<li>SHADOW YOGA
+						</li>
+						<li>CLASSES
+						</li>
+						<li>TREATMENTS
+						</li>
+						<li>ABOUT JAYMIN
+						</li>
+						<li>CONTACT
+						</li>
+					</ul>
+				</div>
+				<div class="main">
+				<p><img alt="vahni" src="./DSCF2602.JPG"> <img src="./DSCF2628gd.JPG" alt="sarpa">
+				</p>
+				<p>Welcome
+				</p>
+				<p>Jaymin teaches hatha yoga, her teaching being grounded in the Shadow Yoga system.
+				</p>
+				<p>Classes and workshops are currently run in Auckland City and surrounding areas with workshops in Northland and the Waikato.
+				</p>
+				<p>Workshops are also offered throughout Aotearoa where expressions of interest are shown, please get in touch.
+				</p>
+				</div>
+			</div>
+		</div>
+		</div>
 	</body>
 </html>
