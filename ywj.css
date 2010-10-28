@@ -43,10 +43,14 @@ html, body {
 		li {
 			margin: 20px;
 		}
-		a.selected, a:hover{
+		a.selected, a:hover {
 			color: rgb(4,55,105);
 		}
 		a {
 			text-decoration: none;			
 			color: rgb(29,99,174);
+		}
+		div.main a {
+			color: white;
+			text-decoration: underline;
 		}
