@@ -45,12 +45,14 @@ html, body {
 		}
 		li {
 			margin: 20px;
-			color: rgb(29,99,174);
 		}
-		li.selected {
+		a.selected, a:hover{
 			color: rgb(4,55,105);
 		}
-		
+		a {
+			text-decoration: none;			
+			color: rgb(29,99,174);
+		}
 		</style>
 	</head>
 	<body>
@@ -60,17 +62,17 @@ html, body {
 		<div id="content">
 				<div class="menu">
 					<ul>
-						<li class="selected">HOME
+						<li><a class="selected" href="./index.html">HOME</a>
 						</li>
-						<li>SHADOW YOGA
+						<li><a href="./shadow.html">SHADOW YOGA</a>
 						</li>
-						<li>CLASSES
+						<li><a href="./classes.html">CLASSES</a>
 						</li>
-						<li>TREATMENTS
+						<li><a href="./treatments.html">TREATMENTS</a>
 						</li>
-						<li>ABOUT JAYMIN
+						<li><a href="./about.html">ABOUT JAYMIN</a>
 						</li>
-						<li>CONTACT
+						<li><a href="./contact.html">CONTACT</a>
 						</li>
 					</ul>
 				</div>
