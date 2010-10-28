@@ -31,6 +31,7 @@ html, body {
 		}
 		div.main p, h3, h2{
 			margin-left: 3%;
+			margin-right: 3%;
 		}
 		div.main img {
 			margin: 2%;
