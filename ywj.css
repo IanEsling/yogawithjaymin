@@ -27,12 +27,13 @@ html, body {
 			color: white;
 			background-color: rgb(0,84,166);
 			opacity: 0.9;
+			overflow: auto;
 		}
-		div.main p {
+		div.main p, h3, h2{
 			margin-left: 3%;
 		}
 		div.main img {
-			margin: 3%;
+			margin: 2%;
 		}
 		ul {
 			list-style-type: none;
