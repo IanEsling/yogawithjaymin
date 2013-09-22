@@ -33,6 +33,12 @@ html, body {
 			margin-left: 3%;
 			margin-right: 3%;
 		}
+        div.main p.quote {
+            line-height: 1.4em;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 2.2em;
+        }
 		div.main img {
 			margin: 2%;
 		}
